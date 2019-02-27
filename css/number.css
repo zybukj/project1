@@ -1,0 +1,128 @@
+.number {
+    margin: 0 auto;
+    background-image: url(../img/pattern_bg.png);
+    width: 100%;
+    background-size: 100%;
+    padding: 110px 0 135px;
+}
+
+.conteiner_number {
+    max-width: 1171px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.text_number {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteiner_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.text_number p {
+    color: #ffffff;
+    font-family: "Roboto - Black";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    /* Text style for "5, 48" */
+    letter-spacing: 0.54px;
+}
+
+.text_number h2 {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    /* Text style for "projects c" */
+    letter-spacing: 0.35px;
+}
+
+.image_number {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 960px) {
+    .conteiner_info {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .image_number {
+        margin: 0 auto;
+    }
+    .text_number {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .conteiner_info {
+        max-width: 760px;
+        margin: 0 auto;
+    }
+    .text_number h2 {
+        font-size: 9px;
+    }
+    .text_number p {
+        font-size: 13px;
+    }
+    .image_number {
+        text-align: center;
+    }
+    .text_number {
+        text-align: center;
+    }
+}
+
+@media (max-width: 585px) {
+    .conteiner_info {
+        max-width: 760px;
+        margin: 0 auto;
+    }
+    .text_number h2 {
+        font-size: 7px;
+    }
+    .text_number p {
+        font-size: 11px;
+    }
+    .image_number {
+        margin: 0 auto;
+    }
+    .text_number {
+        text-align: center;
+    }
+}
+
+@media (max-width: 470px) {
+    .conteiner_info {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .image_number {
+        margin: 0 auto;
+    }
+    .text_number {
+        text-align: center;
+    }
+}
+
+@media (max-width: 300px) {
+    .conteiner_info {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .image_number {
+        margin: 0 auto;
+    }
+    .text_number {
+        text-align: center;
+    }
+}

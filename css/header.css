@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+header {
+    margin: 0 auto;
+    background-image: url(../img/backheader.png);
+    width: 100%;
+    background-size: 100%;
+    padding: 40px 0 64px 0;
+}
+
+.conteiner_header {
+    margin: 0 auto;
+    max-width: 1171px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteiner_nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.none {
+    width: 362px;
+    height: 10px;
+}
+
+.logo {
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav_menu {
+    max-width: 362px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.nav_menu li {
+    display: inline-block;
+}
+
+.nav_menu ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav_menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 84px;
+    text-transform: uppercase;
+    /* Text style for "work" */
+    letter-spacing: 0.35px;
+}
+
+.conteiner_content {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+    max-width: 986px;
+    width: 100%;
+}
+
+.text_top p {
+    color: #ffffff;
+    font-family: "Roboto - Black";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 84px;
+    text-transform: uppercase;
+    /* Text style for "Modern bra" */
+    letter-spacing: 2.8px;
+    padding-top: 101px;
+}
+
+.text_bottom {
+    padding: 70px 0 104px 0;
+}
+
+.text_bottom h2 {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 60px;
+    /* Text style for "W, e are a" */
+    letter-spacing: 1.8px;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.conteiner_ml {
+    display: none;
+}
+
+.fas {
+    display: none;
+}
+
+@media screen and (max-width: 960px) {
+    .nav_menu {
+        display: none;
+    }
+    .menu_list {
+        padding-bottom: 20px;
+    }
+    .menu_list1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 28px;
+        padding-left: 25px;
+        background-color: #05070a;
+    }
+    .menu_list1 a {
+        height: 60px;
+        color: #ffffff;
+        font-family: "Helvetica Neue Cyr";
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 25px;
+        letter-spacing: 2.16px;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    .menu_list1 a:hover {
+        text-decoration: underline;
+    }
+    .conteiner_ml {
+        display: none;
+    }
+    li .fas {
+        background-color: #f5f4f8;
+    }
+    li .fa-bars {
+        width: 100%;
+        height: 4px;
+        background-color: #f5f4f8;
+        text-decoration: none;
+    }
+    .menu_icon {
+        height: 40px;
+        display: block;
+        text-decoration: none;
+        background-color: #2f3033;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .mobile_back {
+        display: block;
+    }
+    .logo {
+        margin: 0 auto;
+    }
+    .none {
+        display: none;
+    }
+    .text_bottom h2 {
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 30px;
+    }
+    .text_bottom {
+        padding: 50px 0 84px 0;
+    }
+    .text_top p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo {
+        margin: 0 auto;
+    }
+    .none {
+        display: none;
+    }
+    .text_bottom h2 {
+        font-size: 25px;
+        font-weight: 300;
+        line-height: 25px;
+    }
+    .text_bottom {
+        padding: 40px 0 74px 0;
+    }
+    .text_top p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 450px) {
+    .logo {
+        margin: 0 auto;
+    }
+    .none {
+        display: none;
+    }
+    .text_bottom h2 {
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+    .text_bottom {
+        padding: 30px 0 64px 0;
+    }
+    .text_top p {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 300px) {
+    .logo {
+        margin: 0 auto;
+    }
+    .none {
+        display: none;
+    }
+    .text_bottom h2 {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+    .text_bottom {
+        padding: 20px 0 44px 0;
+    }
+    .text_top p {
+        font-size: 10px;
+    }
+}

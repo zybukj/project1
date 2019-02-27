@@ -1,0 +1,399 @@
+             .conteiner_section {
+                 margin: 0 auto;
+                 background-color: #f6f6f6;
+                 width: 100%;
+                 padding: 73px 0 91px;
+             }
+             
+             .conteiner_content {
+                 margin: 0 auto;
+                 max-width: 1171px;
+                 width: 100%;
+                 display: flex;
+                 flex-direction: column;
+             }
+             
+             .text_content p {
+                 color: #171717;
+                 font-family: Roboto;
+                 font-size: 44px;
+                 font-weight: 300;
+                 line-height: 60px;
+                 text-transform: uppercase;
+                 /* Text style for "A, bout Ou" */
+                 letter-spacing: 1.1px;
+             }
+             
+             .text2_content h2 {
+                 color: #5f5f5f;
+                 font-family: Roboto;
+                 font-size: 15px;
+                 font-weight: 400;
+                 line-height: 24px;
+                 /* Text style for "We are a n" */
+                 letter-spacing: 0.07px;
+             }
+             
+             .text2_content {
+                 margin: 0 auto;
+                 max-width: 674px;
+                 width: 100%;
+                 padding: 60px 0 50px;
+             }
+             
+             button {
+                 width: 180px;
+                 height: 54px;
+                 background-color: #252525;
+                 cursor: pointer;
+                 margin: 0 auto;
+             }
+             
+             button p {
+                 color: #ffffff;
+                 font-family: "Roboto - Black";
+                 font-size: 14px;
+                 font-weight: 400;
+                 text-transform: uppercase;
+                 /* Text style for "Join Us" */
+                 letter-spacing: 0.35px;
+                 text-decoration: none;
+                 line-height: 55px;
+             }
+             
+             .popup {
+                 display: flex;
+                 flex-direction: column;
+                 box-sizing: border-box;
+                 position: absolute;
+                 max-width: 1000px;
+                 height: 600px;
+                 width: 100%;
+                 left: 50%;
+                 top: 50%;
+                 transform: translate(-50%, -50%);
+                 background: #ffffff;
+             }
+             
+             .popup_text p {
+                 color: #171717;
+                 font-family: Roboto;
+                 font-size: 44px;
+                 font-weight: 300;
+                 line-height: 84px;
+                 text-transform: uppercase;
+                 /* Text style for "C, ontact" */
+                 letter-spacing: 1.1px;
+             }
+             
+             .popup_text {
+                 margin: 0 auto;
+             }
+             
+             .overlay {
+                 cursor: auto;
+                 top: 90%;
+                 left: 0;
+                 position: absolute;
+                 overflow: auto;
+                 width: 100%;
+                 height: 100%;
+                 background-color: rgba(0, 0, 0, .8);
+                 display: none;
+             }
+             
+             .popup input {
+                 margin: 0 auto;
+                 width: 300px;
+                 height: 45px;
+                 box-sizing: border-box;
+                 border-radius: 3px;
+                 border: 1px solid #18284b;
+                 background-color: #ffffff;
+             }
+             
+             .input1 input {
+                 margin: 0 auto;
+                 width: 600px;
+                 height: 45px;
+                 box-sizing: border-box;
+                 border-radius: 3px;
+                 border: 1px solid #18284b;
+                 background-color: #ffffff;
+             }
+             
+             .popup textarea {
+                 margin: 0 auto;
+                 box-sizing: border-box;
+                 width: 600px;
+                 border: 1px solid #000000;
+                 height: 200px;
+                 border-radius: 3px;
+                 border: 1px solid #18284b;
+             }
+             
+             .conteiner_btn1 {
+                 padding: 30px 0 30px;
+                 margin: 0 auto;
+             }
+             
+             .popup textarea[placeholder] {
+                 opacity: 0.5;
+                 color: black;
+                 font-family: Roboto;
+                 font-size: 20px;
+                 font-weight: 300;
+                 letter-spacing: 0.7px;
+                 text-indent: 1em;
+                 padding-top: 20px;
+             }
+             
+             .popup input[placeholder] {
+                 opacity: 0.5;
+                 color: black;
+                 font-family: Roboto;
+                 font-size: 20px;
+                 font-weight: 300;
+                 letter-spacing: 0.7px;
+                 text-indent: 1em;
+             }
+             
+             .close-popup {
+                 position: absolute;
+                 right: -40px;
+                 width: 33px;
+                 height: 333px;
+                 cursor: pointer;
+             }
+             
+             .close-popup:before {
+                 content: '';
+                 background: #ffffff;
+                 position: absolute;
+                 height: 1px;
+                 width: 31px;
+                 top: 11px;
+                 left: -4px;
+                 transform: rotate(-45deg);
+             }
+             
+             .close-popup:after {
+                 content: '';
+                 background: #ffffff;
+                 position: absolute;
+                 height: 1px;
+                 width: 31px;
+                 top: 11px;
+                 transform: rotate(45deg);
+                 left: -4px;
+             }
+             
+             .input1 {
+                 display: flex;
+                 flex-direction: column;
+                 margin: 0 auto;
+                 padding-bottom: 20px;
+                 padding-top: 20px;
+             }
+             
+             .input {
+                 display: flex;
+                 flex-direction: row;
+                 margin: 0 auto;
+                 padding: 20px 0 20px 0;
+             }
+             
+             .lie {
+                 max-width: 40px;
+                 width: 100%;
+             }
+             
+             .textarea {
+                 margin: 0 auto;
+             }
+             
+             @media screen and (max-width: 960px) {
+                 .text_content p {
+                     font-size: 34px;
+                     font-weight: 300;
+                     line-height: 40px;
+                 }
+                 .text2_content h2 {
+                     font-size: 14px;
+                     line-height: 23px;
+                 }
+                 button p {
+                     font-size: 13px;
+                 }
+                 .popup {
+                     max-width: 700px;
+                     height: 600px;
+                     width: 100%;
+                 }
+                 .popup_text p {
+                     font-size: 34px;
+                 }
+             }
+             
+             @media (max-width: 768px) {
+                 .text_content p {
+                     font-size: 24px;
+                     font-weight: 300;
+                     line-height: 30px;
+                 }
+                 .text2_content h2 {
+                     font-size: 13px;
+                     line-height: 22px;
+                 }
+                 button p {
+                     font-size: 12px;
+                 }
+                 .popup {
+                     max-width: 550px;
+                     height: 600px;
+                     width: 100%;
+                 }
+                 .popup_text p {
+                     font-size: 24px;
+                 }
+                 .input1 input {
+                     width: 300px;
+                 }
+                 .lie {
+                     height: 40px;
+                 }
+                 .input {
+                     flex-direction: column;
+                 }
+                 .popup textarea {
+                     width: 450px;
+                 }
+                 @media (max-width: 650px) {
+                     .text_content p {
+                         font-size: 20px;
+                         font-weight: 300;
+                         line-height: 25px;
+                     }
+                     .text2_content h2 {
+                         font-size: 11px;
+                         line-height: 21px;
+                     }
+                     button p {
+                         font-size: 10px;
+                     }
+                     button p {
+                         font-size: 11px;
+                     }
+                     .popup {
+                         max-width: 450px;
+                         height: 600px;
+                         width: 100%;
+                     }
+                     .popup_text p {
+                         font-size: 22px;
+                     }
+                     .input1 input {
+                         width: 300px;
+                     }
+                     .lie {
+                         height: 40px;
+                     }
+                     .input {
+                         flex-direction: column;
+                     }
+                     .popup textarea {
+                         width: 350px;
+                     }
+                 }
+                 @media (max-width: 560px) {
+                     button p {
+                         font-size: 10px;
+                     }
+                     button p {
+                         font-size: 11px;
+                     }
+                     .popup {
+                         max-width: 400px;
+                         height: 600px;
+                         width: 100%;
+                     }
+                     .popup_text p {
+                         font-size: 21px;
+                     }
+                     .input1 input {
+                         width: 300px;
+                     }
+                     .lie {
+                         height: 40px;
+                     }
+                     .input {
+                         flex-direction: column;
+                     }
+                     .popup textarea {
+                         width: 360px;
+                     }
+                 }
+             }
+             
+             @media (max-width: 480px) {
+                 button p {
+                     font-size: 10px;
+                 }
+                 button p {
+                     font-size: 11px;
+                 }
+                 .popup {
+                     max-width: 370px;
+                     height: 565px;
+                     width: 100%;
+                 }
+                 .popup_text p {
+                     font-size: 21px;
+                 }
+                 .input1 input {
+                     width: 250px;
+                 }
+                 .lie {
+                     height: 40px;
+                 }
+                 .input {
+                     flex-direction: column;
+                 }
+                 .popup textarea {
+                     width: 300px;
+                 }
+                 .popup input {
+                     width: 250px;
+                 }
+                 @media (max-width: 450px) {
+                     button p {
+                         font-size: 10px;
+                     }
+                     button p {
+                         font-size: 11px;
+                     }
+                     .popup {
+                         max-width: 230px;
+                         height: 565px;
+                         width: 100%;
+                     }
+                     .popup_text p {
+                         font-size: 21px;
+                     }
+                     .input1 input {
+                         width: 200px;
+                     }
+                     .lie {
+                         height: 40px;
+                     }
+                     .input {
+                         flex-direction: column;
+                     }
+                     .popup textarea {
+                         width: 230px;
+                     }
+                     .popup input {
+                         width: 200px;
+                     }
+                 }
+             }
